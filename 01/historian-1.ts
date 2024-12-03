@@ -1,6 +1,6 @@
 import * as fs from "node:fs/promises";
 
-const buffer = await fs.readFile("day1/input.txt");
+const buffer = await fs.readFile("01/input.txt");
 export const content = buffer.toString();
 export const list: string[] = content
   .split("\n")

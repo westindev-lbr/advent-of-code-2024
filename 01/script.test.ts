@@ -1,7 +1,7 @@
 import { Historian } from "./historian-1";
 import * as fs from "node:fs/promises";
 import { HistorianFinal } from "./historian-2";
-const buffer = await fs.readFile("day1/test.txt");
+const buffer = await fs.readFile("01/test.txt");
 
 describe("Historian TDD", () => {
   const content = buffer.toString();
